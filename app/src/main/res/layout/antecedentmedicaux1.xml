@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText4_00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Raison des soins"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText4_01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nom du medecin"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText4_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Telephone"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText4_03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Poste"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+</android.widget.RelativeLayout>

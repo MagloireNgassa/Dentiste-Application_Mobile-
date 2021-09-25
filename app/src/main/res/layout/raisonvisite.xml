@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Raison de la viste"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Adressé par"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="En cas d'urgence contacter"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Telephone"
+            android:inputType="phone" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avez-vous moins de 18 ans?" />
+    </LinearLayout>
+</android.widget.RelativeLayout>

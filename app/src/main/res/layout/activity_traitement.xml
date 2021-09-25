@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TraitementActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="VERIFICATION DES INFORMATIONS"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textColorLink="#418C85"
+            android:textSize="18sp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="validation"
+            android:text="VALIDATION"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/listMenu2"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+
+
+    </LinearLayout>
+
+
+
+</android.widget.RelativeLayout>
